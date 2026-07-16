@@ -401,7 +401,87 @@ background:#F9FAFB;
 
 }
 
+/* ==========================================
+   SKILLS PAGE
+========================================== */
 
+
+.skills{
+
+    padding:100px 10%;
+
+}
+
+
+
+.skills-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+.skill-card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+}
+
+
+
+.skill-card h2{
+
+    color:#111827;
+
+    font-size:24px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.skill-card ul{
+
+    padding-left:20px;
+
+}
+
+
+
+.skill-card li{
+
+    color:#4B5563;
+
+    line-height:1.8;
+
+}
+
+
+
+
+@media(max-width:768px){
+
+
+    .skills-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+}
 
 
 /* This is for @media */
