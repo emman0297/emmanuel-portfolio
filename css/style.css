@@ -195,59 +195,105 @@ background:#F9FAFB;
 /* End Hero Section */
 
    
-  /* ==========================================
-   ABOUT SECTION
+/* ==========================================
+   ABOUT PAGE
 ========================================== */
 
-  
-/* ABOUT */
 
 .about{
 
-max-width:900px;
-
-margin:120px auto;
-
-padding:20px;
+    padding:120px 10%;
 
 }
 
-.section-title{
 
-text-align:center;
+.about-container{
 
-margin-bottom:50px;
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:60px;
+
+}
+
+
+.about-image{
+
+    width:300px;
+
+    height:300px;
 
 }
 
-.section-title h2{
 
-font-size:40px;
+.profile-placeholder{
 
-font-weight:700;
+    width:100%;
 
-color:#111827;
+    height:100%;
+
+    border-radius:50%;
+
+    background:#e5e7eb;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:20px;
+
+    color:#374151;
 
 }
+
 
 .about-content{
 
-display:flex;
-
-flex-direction:column;
-
-gap:25px;
+    max-width:600px;
 
 }
+
+
+.about-content h1{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#111827;
+
+    margin-bottom:15px;
+
+}
+
+
+.about-content h2{
+
+    font-size:28px;
+
+    color:#2563EB;
+
+    margin-bottom:20px;
+
+}
+
 
 .about-content p{
 
-font-size:19px;
+    font-size:18px;
 
-line-height:1.9;
+    line-height:1.8;
 
-color:#4B5563;
+    color:#4B5563;
+
+    margin-bottom:15px;
 
 }
 
-/* End About Section */
+
+/* End About Page */
