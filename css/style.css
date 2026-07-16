@@ -304,23 +304,62 @@ background:#F9FAFB;
 
 
 
-
+/* This is for @media */
 
 
 @media (max-width:768px){
+
+
+    /* Navbar */
+
+    .navbar{
+
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+
+    }
+
+
+    .nav-links{
+
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+
+    }
+
+
+
+    /* About Section */
+
+    .about{
+
+        padding:60px 20px;
+
+    }
+
 
     .about-container{
 
         flex-direction:column;
         text-align:center;
+        gap:40px;
 
     }
 
 
     .about-image{
 
-        width:220px;
-        height:220px;
+        width:200px;
+        height:200px;
+
+    }
+
+
+    .about-content{
+
+        width:100%;
 
     }
 
@@ -331,5 +370,18 @@ background:#F9FAFB;
 
     }
 
+
+    .about-content h2{
+
+        font-size:24px;
+
+    }
+
+
+    .about-content p{
+
+        font-size:16px;
+
+    }
 
 }
