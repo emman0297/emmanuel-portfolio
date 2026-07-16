@@ -21,37 +21,56 @@ line-height:1.6;
 ========================================== */
 
 
+/* ==========================================
+   Navigation SECTION
+========================================== */
+
+header{
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+
+    border-bottom:1px solid #E5E7EB;
+
+}
+
 .navbar{
 
-max-width:1100px;
+    max-width:1100px;
 
-margin:auto;
+    margin:auto;
 
-display:flex;
+    display:flex;
 
-justify-content:space-between;
+    justify-content:space-between;
 
-align-items:center;
+    align-items:center;
 
-padding:25px 20px;
+    padding:20px;
 
 }
 
 .logo{
 
-font-size:22px;
+    font-size:22px;
 
-font-weight:700;
+    font-weight:700;
 
 }
 
 .nav-links{
 
-display:flex;
+    display:flex;
 
-gap:30px;
+    gap:30px;
 
-list-style:none;
+    list-style:none;
 
 }
 
@@ -70,7 +89,7 @@ list-style:none;
 
 .nav-links a:hover{
 
-color:#2563EB;
+    color:#2563EB;
 
 }
 
@@ -89,13 +108,13 @@ color:#2563EB;
 
 .hero{
 
-max-width:900px;
+    max-width:900px;
 
-margin:120px auto;
+    margin:80px auto;
 
-padding:20px;
+    padding:20px;
 
-text-align:center;
+    text-align:center;
 
 }
 
