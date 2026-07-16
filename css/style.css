@@ -299,7 +299,107 @@ background:#F9FAFB;
 /* End About Page */
 
 
+/* ==========================================
+   EXPERIENCE PAGE
+========================================== */
 
+
+.experience{
+
+    padding:100px 10%;
+
+}
+
+
+.page-title{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:60px;
+
+    color:#111827;
+
+}
+
+
+
+.experience-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:40px;
+
+}
+
+
+
+.experience-card{
+
+    background:#ffffff;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+}
+
+
+
+.experience-card h2{
+
+    font-size:28px;
+
+    color:#111827;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.experience-card h3{
+
+    color:#2563EB;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.date{
+
+    color:#6B7280;
+
+    font-weight:500;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.experience-card ul{
+
+    padding-left:20px;
+
+}
+
+
+
+.experience-card li{
+
+    line-height:1.8;
+
+    color:#4B5563;
+
+}
 
 
 
