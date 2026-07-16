@@ -57,13 +57,14 @@ list-style:none;
 
 .nav-links a{
 
-text-decoration:none;
+    text-decoration:none;
 
-color:#374151;
+    color:#374151;
 
-font-weight:500;
+    font-weight:500;
 
-transition:.3s;
+    transition:
+        color .3s ease;
 
 }
 
