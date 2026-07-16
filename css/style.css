@@ -146,49 +146,61 @@ gap:20px;
 
 .btn-primary{
 
-background:#2563EB;
+    background:#2563EB;
 
-color:white;
+    color:white;
 
-padding:14px 28px;
+    padding:14px 28px;
 
-border-radius:12px;
+    border-radius:12px;
 
-text-decoration:none;
+    text-decoration:none;
 
-font-weight:600;
+    font-weight:600;
 
-transition:.3s;
+    transition:transform .3s ease,
+               box-shadow .3s ease,
+               background-color .3s ease;
 
 }
 
 .btn-primary:hover{
 
-background:#1D4ED8;
+    background:#1D4ED8;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(37,99,235,.25);
 
 }
 
 .btn-secondary{
 
-border:1px solid #D1D5DB;
+    border:1px solid #D1D5DB;
 
-padding:14px 28px;
+    padding:14px 28px;
 
-border-radius:12px;
+    border-radius:12px;
 
-text-decoration:none;
+    text-decoration:none;
 
-color:#111827;
+    color:#111827;
 
-font-weight:600;
+    font-weight:600;
 
-transition:.3s;
+    transition:transform .3s ease,
+               background-color .3s ease,
+               box-shadow .3s ease;
 
 }
 
 .btn-secondary:hover{
 
-background:#F9FAFB;
+    background:#F9FAFB;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
 
 }
 
@@ -576,13 +588,18 @@ background:#F9FAFB;
 
     font-weight:600;
 
-}
+    transition:all .3s ease;
 
+}
 
 
 .resume-btn:hover{
 
     background:#1D4ED8;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(37,99,235,.25);
 
 }
 
