@@ -185,10 +185,64 @@ transition:.3s;
 
 background:#F9FAFB;
 
+}
+
+/* End Hero Section */
+
+   
   /* ==========================================
    ABOUT SECTION
 ========================================== */
 
   
+/* ABOUT */
+
+.about{
+
+max-width:900px;
+
+margin:120px auto;
+
+padding:20px;
 
 }
+
+.section-title{
+
+text-align:center;
+
+margin-bottom:50px;
+
+}
+
+.section-title h2{
+
+font-size:40px;
+
+font-weight:700;
+
+color:#111827;
+
+}
+
+.about-content{
+
+display:flex;
+
+flex-direction:column;
+
+gap:25px;
+
+}
+
+.about-content p{
+
+font-size:19px;
+
+line-height:1.9;
+
+color:#4B5563;
+
+}
+
+/* End About Section */
