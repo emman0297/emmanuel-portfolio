@@ -358,6 +358,17 @@ background:#F9FAFB;
 
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 
+    transition:0.3s ease;
+
+}
+
+
+.experience-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,0.12);
+
 }
 
 
@@ -447,8 +458,18 @@ background:#F9FAFB;
 
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 
+    transition:0.3s ease;
+
 }
 
+
+.skill-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,0.12);
+
+}
 
 
 .skill-card h2{
@@ -650,6 +671,17 @@ background:#F9FAFB;
     border-radius:15px;
 
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+    transition:0.3s ease;
+
+}
+
+
+.contact-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,0.12);
 
 }
 
