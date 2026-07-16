@@ -929,45 +929,20 @@ gap:20px;
 
 .footer{
 
-    margin-top:60px;
+    background:#111827;
+
     padding:25px 20px;
-    border-top:1px solid #E5E7EB;
-
-}
-
-.footer-content{
-
-    max-width:1100px;
-    margin:auto;
-
-    display:grid;
-    grid-template-columns:1fr auto 1fr;
-
-    align-items:center;
-
-}
-
-.footer-name{
-
-    text-align:left;
-    font-size:16px;
-    color:#111827;
-    font-weight:600;
-
-}
-
-.footer-role{
 
     text-align:center;
-    color:#6B7280;
-    font-size:15px;
 
 }
 
-.footer-copy{
+.footer p{
 
-    text-align:right;
-    color:#9CA3AF;
+    color:#FFFFFF;
+
     font-size:14px;
+
+    margin:0;
 
 }
