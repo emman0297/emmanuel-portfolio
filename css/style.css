@@ -483,6 +483,107 @@ background:#F9FAFB;
 
 }
 
+/* ==========================================
+   RESUME PAGE
+========================================== */
+
+
+.resume{
+
+    padding:100px 10%;
+
+}
+
+
+
+.resume-container{
+
+    text-align:center;
+
+}
+
+
+
+.resume-container p{
+
+    font-size:18px;
+
+    color:#4B5563;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.resume-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    margin-bottom:40px;
+
+}
+
+
+
+.resume-btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+
+
+.resume-btn:hover{
+
+    background:#1D4ED8;
+
+}
+
+
+
+.resume-preview iframe{
+
+    border:none;
+
+}
+
+
+
+@media(max-width:768px){
+
+
+    .resume-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+
+    .resume-btn{
+
+        width:200px;
+
+    }
+
+
+}
 
 /* This is for @media */
 
