@@ -665,7 +665,8 @@ background:#F9FAFB;
 .contact-card p{
 
     font-size:16px;
-
+   overflow-wrap:break-word;
+   
 }
 
 
