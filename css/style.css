@@ -929,12 +929,8 @@ gap:20px;
 
 .footer{
 
-    margin-top:80px;
-
-    padding:40px 20px;
-
-    background:#F9FAFB;
-
+    margin-top:60px;
+    padding:25px 20px;
     border-top:1px solid #E5E7EB;
 
 }
@@ -942,37 +938,36 @@ gap:20px;
 .footer-content{
 
     max-width:1100px;
-
     margin:auto;
 
-    text-align:center;
+    display:grid;
+    grid-template-columns:1fr auto 1fr;
+
+    align-items:center;
 
 }
 
-.footer h3{
+.footer-name{
 
-    font-size:22px;
-
+    text-align:left;
+    font-size:16px;
     color:#111827;
-
-    margin-bottom:10px;
+    font-weight:600;
 
 }
 
-.footer p{
+.footer-role{
 
+    text-align:center;
     color:#6B7280;
-
-    margin-bottom:8px;
+    font-size:15px;
 
 }
 
 .footer-copy{
 
-    font-size:14px;
-
+    text-align:right;
     color:#9CA3AF;
-
-    margin-top:20px;
+    font-size:14px;
 
 }
