@@ -382,7 +382,9 @@ gap:20px;
 
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 
-    transition:0.3s ease;
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
 
 }
 
@@ -482,7 +484,9 @@ gap:20px;
 
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 
-    transition:0.3s ease;
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
 
 }
 
@@ -600,7 +604,10 @@ gap:20px;
 
     font-weight:600;
 
-    transition:all .3s ease;
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        background-color .3s ease;
 
 }
 
@@ -701,10 +708,11 @@ gap:20px;
 
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 
-    transition:0.3s ease;
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
 
 }
-
 
 .contact-card:hover{
 
