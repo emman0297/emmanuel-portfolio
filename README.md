@@ -20,8 +20,8 @@ Administrative and Operations Professional with six years of corporate experienc
 
 ## Connect with Me
 
-LinkedIn
+LinkedIn:
 https://www.linkedin.com/in/emmanuel-greg-escalona/
 
-Email
+Email:
 emman021997@gmail.com
