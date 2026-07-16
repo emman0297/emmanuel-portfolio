@@ -685,6 +685,22 @@ background:#F9FAFB;
 
 }
 
+.contact-card a{
+
+    color:#2563EB;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+
+.contact-card a:hover{
+
+    text-decoration:underline;
+
+}
 
 /* This is for @media */
 
